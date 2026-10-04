@@ -1,0 +1,759 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "3.7 Previews for list/edit/dashboard (light + dark, large Dynamic Type) using `SampleData`. Build iOS + macOS clean.": [
+      {
+        "executionId": "9577090d-d10d-452a-8a1c-bad4b9234f5b",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791063126543
+      },
+      {
+        "executionId": "9577090d-d10d-452a-8a1c-bad4b9234f5b",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791063133800
+      },
+      {
+        "executionId": "9577090d-d10d-452a-8a1c-bad4b9234f5b",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791063298985
+      }
+    ],
+    "4.1 `FlightListView` + `FlightRow` showing per-airport local times with zone labels.": [
+      {
+        "executionId": "9577090d-d10d-452a-8a1c-bad4b9234f5b",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791063126579
+      },
+      {
+        "executionId": "9577090d-d10d-452a-8a1c-bad4b9234f5b",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791063302212
+      },
+      {
+        "executionId": "9577090d-d10d-452a-8a1c-bad4b9234f5b",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791064725884
+      }
+    ],
+    "4.2 `FlightEditVM` + `FlightEditView`: full manual entry incl. per-airport time zones, terminal/gate/ref/seat/notes.": [
+      {
+        "executionId": "9577090d-d10d-452a-8a1c-bad4b9234f5b",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791063126614
+      },
+      {
+        "executionId": "9577090d-d10d-452a-8a1c-bad4b9234f5b",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791064729781
+      },
+      {
+        "executionId": "9577090d-d10d-452a-8a1c-bad4b9234f5b",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791064941207
+      }
+    ],
+    "4.3 `FlightLookupService` protocol + `MockFlightLookupService` (deterministic data, configurable failure); \"look up\" action populating the form; error/offline path keeps manual entry.": [
+      {
+        "executionId": "9577090d-d10d-452a-8a1c-bad4b9234f5b",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791063126645
+      },
+      {
+        "executionId": "9577090d-d10d-452a-8a1c-bad4b9234f5b",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791064944260
+      },
+      {
+        "executionId": "9577090d-d10d-452a-8a1c-bad4b9234f5b",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791067109692
+      }
+    ],
+    "4.4 Previews + build iOS/macOS clean.": [
+      {
+        "executionId": "9577090d-d10d-452a-8a1c-bad4b9234f5b",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791063126695
+      },
+      {
+        "executionId": "9577090d-d10d-452a-8a1c-bad4b9234f5b",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791067112379
+      },
+      {
+        "executionId": "9577090d-d10d-452a-8a1c-bad4b9234f5b",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791069655051
+      }
+    ],
+    "5.1 `StayEditView` (check-in/out, place, confirmation, notes) and bookings list entry points.": [
+      {
+        "executionId": "9577090d-d10d-452a-8a1c-bad4b9234f5b",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791063126719
+      },
+      {
+        "executionId": "9577090d-d10d-452a-8a1c-bad4b9234f5b",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791069658380
+      },
+      {
+        "executionId": "9577090d-d10d-452a-8a1c-bad4b9234f5b",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791069995179
+      }
+    ],
+    "5.2 `BookingEditView` (kind, time/range, place, confirmation, notes).": [
+      {
+        "executionId": "9577090d-d10d-452a-8a1c-bad4b9234f5b",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791063126745
+      },
+      {
+        "executionId": "9577090d-d10d-452a-8a1c-bad4b9234f5b",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791069998357
+      },
+      {
+        "executionId": "9577090d-d10d-452a-8a1c-bad4b9234f5b",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791070115711
+      }
+    ],
+    "5.3 Edit/delete persistence for stays and bookings; previews; build clean.": [
+      {
+        "executionId": "9577090d-d10d-452a-8a1c-bad4b9234f5b",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791063126769
+      },
+      {
+        "executionId": "9577090d-d10d-452a-8a1c-bad4b9234f5b",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791070118544
+      },
+      {
+        "executionId": "f4de4f99-1eef-4ac8-ac1e-7d28535470c7",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791072237674
+      },
+      {
+        "executionId": "f4de4f99-1eef-4ac8-ac1e-7d28535470c7",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791072241830
+      },
+      {
+        "executionId": "9a5b9aa5-0868-4595-a21a-da3b62d7b3aa",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791072745470
+      },
+      {
+        "executionId": "9a5b9aa5-0868-4595-a21a-da3b62d7b3aa",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791072749582
+      },
+      {
+        "executionId": "08ab81bc-6db1-40d3-8560-929cb0fede2d",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791073919431
+      },
+      {
+        "executionId": "08ab81bc-6db1-40d3-8560-929cb0fede2d",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791073923157
+      },
+      {
+        "executionId": "08ab81bc-6db1-40d3-8560-929cb0fede2d",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791075160908
+      }
+    ],
+    "6.1 `DayItineraryVM` + `DayItineraryView`: assemble ordered `TimelineEntry` list per day from flights/stays/bookings/activities (multi-night stay check-in/out placement).": [
+      {
+        "executionId": "9577090d-d10d-452a-8a1c-bad4b9234f5b",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791063126794
+      },
+      {
+        "executionId": "f4de4f99-1eef-4ac8-ac1e-7d28535470c7",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791072237717
+      },
+      {
+        "executionId": "9a5b9aa5-0868-4595-a21a-da3b62d7b3aa",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791072745520
+      },
+      {
+        "executionId": "08ab81bc-6db1-40d3-8560-929cb0fede2d",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791073919473
+      },
+      {
+        "executionId": "08ab81bc-6db1-40d3-8560-929cb0fede2d",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791075164500
+      },
+      {
+        "executionId": "08ab81bc-6db1-40d3-8560-929cb0fede2d",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791076164084
+      }
+    ],
+    "6.2 `ActivityEditView`: title, category, time/range, place, notes, done flag; add/edit/reorder/remove with persisted order.": [
+      {
+        "executionId": "9577090d-d10d-452a-8a1c-bad4b9234f5b",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791063126818
+      },
+      {
+        "executionId": "f4de4f99-1eef-4ac8-ac1e-7d28535470c7",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791072237745
+      },
+      {
+        "executionId": "9a5b9aa5-0868-4595-a21a-da3b62d7b3aa",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791072745543
+      },
+      {
+        "executionId": "08ab81bc-6db1-40d3-8560-929cb0fede2d",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791073919507
+      },
+      {
+        "executionId": "08ab81bc-6db1-40d3-8560-929cb0fede2d",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791076167296
+      },
+      {
+        "executionId": "08ab81bc-6db1-40d3-8560-929cb0fede2d",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791076741950
+      }
+    ],
+    "6.3 `RoutingService` protocol + `MapKitRoutingService` (async `MKDirections`, cached, typed errors); show per-leg travel time/distance; graceful degrade when unavailable.": [
+      {
+        "executionId": "9577090d-d10d-452a-8a1c-bad4b9234f5b",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791063126845
+      },
+      {
+        "executionId": "f4de4f99-1eef-4ac8-ac1e-7d28535470c7",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791072237764
+      },
+      {
+        "executionId": "9a5b9aa5-0868-4595-a21a-da3b62d7b3aa",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791072745567
+      },
+      {
+        "executionId": "08ab81bc-6db1-40d3-8560-929cb0fede2d",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791073919529
+      },
+      {
+        "executionId": "08ab81bc-6db1-40d3-8560-929cb0fede2d",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791076745506
+      }
+    ],
+    "6.4 Pure `ScheduleEvaluator` (ok/tight/overlap vs buffer + travel, incl. before-a-flight leg) wired into the day view warnings; configurable buffer.": [
+      {
+        "executionId": "9577090d-d10d-452a-8a1c-bad4b9234f5b",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791063126881
+      },
+      {
+        "executionId": "f4de4f99-1eef-4ac8-ac1e-7d28535470c7",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791072237794
+      },
+      {
+        "executionId": "9a5b9aa5-0868-4595-a21a-da3b62d7b3aa",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791072745594
+      },
+      {
+        "executionId": "08ab81bc-6db1-40d3-8560-929cb0fede2d",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791073919557
+      },
+      {
+        "executionId": "1e6d625c-860e-454b-8137-d9da2a86f77a",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791115784853
+      },
+      {
+        "executionId": "1e6d625c-860e-454b-8137-d9da2a86f77a",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791116089323
+      }
+    ],
+    "6.5 `DayMapView`: route of placed items in order + \"Open in Apple Maps\" button via route URL.": [
+      {
+        "executionId": "9577090d-d10d-452a-8a1c-bad4b9234f5b",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791063126914
+      },
+      {
+        "executionId": "f4de4f99-1eef-4ac8-ac1e-7d28535470c7",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791072237837
+      },
+      {
+        "executionId": "9a5b9aa5-0868-4595-a21a-da3b62d7b3aa",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791072745616
+      },
+      {
+        "executionId": "08ab81bc-6db1-40d3-8560-929cb0fede2d",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791073919579
+      },
+      {
+        "executionId": "1e6d625c-860e-454b-8137-d9da2a86f77a",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791116092593
+      },
+      {
+        "executionId": "1e6d625c-860e-454b-8137-d9da2a86f77a",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791116269427
+      }
+    ],
+    "6.6 Swift Testing tests for `ScheduleEvaluator`; previews; build iOS/macOS clean.": [
+      {
+        "executionId": "9577090d-d10d-452a-8a1c-bad4b9234f5b",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791063126947
+      },
+      {
+        "executionId": "f4de4f99-1eef-4ac8-ac1e-7d28535470c7",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791072237857
+      },
+      {
+        "executionId": "9a5b9aa5-0868-4595-a21a-da3b62d7b3aa",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791072745638
+      },
+      {
+        "executionId": "08ab81bc-6db1-40d3-8560-929cb0fede2d",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791073919600
+      },
+      {
+        "executionId": "1e6d625c-860e-454b-8137-d9da2a86f77a",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791116272642
+      },
+      {
+        "executionId": "1e6d625c-860e-454b-8137-d9da2a86f77a",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791116846562
+      }
+    ],
+    "7.1 Suggestion value types + `SuggestionService` protocol; `SuggestionsVM` with request form (available time presets/custom, start, area default, interests, pace) and loading/empty/error states.": [
+      {
+        "executionId": "9577090d-d10d-452a-8a1c-bad4b9234f5b",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791063126977
+      },
+      {
+        "executionId": "f4de4f99-1eef-4ac8-ac1e-7d28535470c7",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791072237879
+      },
+      {
+        "executionId": "9a5b9aa5-0868-4595-a21a-da3b62d7b3aa",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791072745672
+      },
+      {
+        "executionId": "08ab81bc-6db1-40d3-8560-929cb0fede2d",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791073919623
+      },
+      {
+        "executionId": "1e6d625c-860e-454b-8137-d9da2a86f77a",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791116852193
+      },
+      {
+        "executionId": "1e6d625c-860e-454b-8137-d9da2a86f77a",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791118286072
+      }
+    ],
+    "7.2 `MapKitSuggestionService`: MKLocalSearch discovery by interest categories scoped to the area region.": [
+      {
+        "executionId": "9577090d-d10d-452a-8a1c-bad4b9234f5b",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791063127003
+      },
+      {
+        "executionId": "f4de4f99-1eef-4ac8-ac1e-7d28535470c7",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791072237901
+      },
+      {
+        "executionId": "9a5b9aa5-0868-4595-a21a-da3b62d7b3aa",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791072745703
+      },
+      {
+        "executionId": "08ab81bc-6db1-40d3-8560-929cb0fede2d",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791073919651
+      },
+      {
+        "executionId": "1e6d625c-860e-454b-8137-d9da2a86f77a",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791118289421
+      },
+      {
+        "executionId": "1e6d625c-860e-454b-8137-d9da2a86f77a",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791122165341
+      }
+    ],
+    "7.3 Pure `SuggestionPlanner`: time-fitting with injected travel estimates, per-category durations scaled by pace, opening-hours handling, arrival/departure assignment.": [
+      {
+        "executionId": "9577090d-d10d-452a-8a1c-bad4b9234f5b",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791063127029
+      },
+      {
+        "executionId": "f4de4f99-1eef-4ac8-ac1e-7d28535470c7",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791072237925
+      },
+      {
+        "executionId": "9a5b9aa5-0868-4595-a21a-da3b62d7b3aa",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791072745726
+      },
+      {
+        "executionId": "08ab81bc-6db1-40d3-8560-929cb0fede2d",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791073919681
+      },
+      {
+        "executionId": "1e6d625c-860e-454b-8137-d9da2a86f77a",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791122171950
+      },
+      {
+        "executionId": "1e6d625c-860e-454b-8137-d9da2a86f77a",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791122406868
+      }
+    ],
+    "7.4 `SuggestionsView` + `SuggestionRow` (summary, duration, distance-from-previous, category); one-tap add-to-day creating an `Activity`.": [
+      {
+        "executionId": "9577090d-d10d-452a-8a1c-bad4b9234f5b",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791063127056
+      },
+      {
+        "executionId": "f4de4f99-1eef-4ac8-ac1e-7d28535470c7",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791072237947
+      },
+      {
+        "executionId": "9a5b9aa5-0868-4595-a21a-da3b62d7b3aa",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791072745749
+      },
+      {
+        "executionId": "08ab81bc-6db1-40d3-8560-929cb0fede2d",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791073919701
+      },
+      {
+        "executionId": "1e6d625c-860e-454b-8137-d9da2a86f77a",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791122412400
+      },
+      {
+        "executionId": "1e6d625c-860e-454b-8137-d9da2a86f77a",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791122750046
+      }
+    ],
+    "7.5 Empty vs error/offline states distinct and verified; Swift Testing tests for `SuggestionPlanner`; previews; build clean.": [
+      {
+        "executionId": "9577090d-d10d-452a-8a1c-bad4b9234f5b",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791063127085
+      },
+      {
+        "executionId": "f4de4f99-1eef-4ac8-ac1e-7d28535470c7",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791072237972
+      },
+      {
+        "executionId": "9a5b9aa5-0868-4595-a21a-da3b62d7b3aa",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791072745771
+      },
+      {
+        "executionId": "08ab81bc-6db1-40d3-8560-929cb0fede2d",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791073919721
+      },
+      {
+        "executionId": "1e6d625c-860e-454b-8137-d9da2a86f77a",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791122753398
+      },
+      {
+        "executionId": "1e6d625c-860e-454b-8137-d9da2a86f77a",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791134817929
+      }
+    ],
+    "8.1 Notes & links attachable to a trip and to an activity; tappable links with title + URL; edit/delete.": [
+      {
+        "executionId": "9577090d-d10d-452a-8a1c-bad4b9234f5b",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791063127112
+      },
+      {
+        "executionId": "f4de4f99-1eef-4ac8-ac1e-7d28535470c7",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791072238001
+      },
+      {
+        "executionId": "9a5b9aa5-0868-4595-a21a-da3b62d7b3aa",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791072745794
+      },
+      {
+        "executionId": "08ab81bc-6db1-40d3-8560-929cb0fede2d",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791073919743
+      },
+      {
+        "executionId": "1e6d625c-860e-454b-8137-d9da2a86f77a",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791134821646
+      },
+      {
+        "executionId": "1e6d625c-860e-454b-8137-d9da2a86f77a",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791135064405
+      }
+    ],
+    "8.2 `TodayVM` + `TodayView`: active trip/day with current/next highlighted in local zone; sensible state when no trip in progress.": [
+      {
+        "executionId": "9577090d-d10d-452a-8a1c-bad4b9234f5b",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791063127136
+      },
+      {
+        "executionId": "f4de4f99-1eef-4ac8-ac1e-7d28535470c7",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791072238045
+      },
+      {
+        "executionId": "9a5b9aa5-0868-4595-a21a-da3b62d7b3aa",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791072745817
+      },
+      {
+        "executionId": "08ab81bc-6db1-40d3-8560-929cb0fede2d",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791073919764
+      },
+      {
+        "executionId": "1e6d625c-860e-454b-8137-d9da2a86f77a",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791135067822
+      },
+      {
+        "executionId": "1e6d625c-860e-454b-8137-d9da2a86f77a",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791135410838
+      }
+    ],
+    "8.3 `NotificationScheduling` + `LocalNotificationScheduler`: auth request + graceful denial; schedule/reschedule/cancel for flights and timed activities at a configurable lead time; keep in sync on edit/delete.": [
+      {
+        "executionId": "9577090d-d10d-452a-8a1c-bad4b9234f5b",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791063127169
+      },
+      {
+        "executionId": "f4de4f99-1eef-4ac8-ac1e-7d28535470c7",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791072238068
+      },
+      {
+        "executionId": "9a5b9aa5-0868-4595-a21a-da3b62d7b3aa",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791072745837
+      },
+      {
+        "executionId": "08ab81bc-6db1-40d3-8560-929cb0fede2d",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791073919785
+      },
+      {
+        "executionId": "1e6d625c-860e-454b-8137-d9da2a86f77a",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791135414535
+      },
+      {
+        "executionId": "1e6d625c-860e-454b-8137-d9da2a86f77a",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791135779104
+      }
+    ],
+    "9.1 Audit Dark Mode + Dynamic Type across all screens via previews; fix layout issues.": [
+      {
+        "executionId": "9577090d-d10d-452a-8a1c-bad4b9234f5b",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791063127195
+      },
+      {
+        "executionId": "f4de4f99-1eef-4ac8-ac1e-7d28535470c7",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791072238089
+      },
+      {
+        "executionId": "9a5b9aa5-0868-4595-a21a-da3b62d7b3aa",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791072745860
+      },
+      {
+        "executionId": "08ab81bc-6db1-40d3-8560-929cb0fede2d",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791073919807
+      },
+      {
+        "executionId": "1e6d625c-860e-454b-8137-d9da2a86f77a",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791135783292
+      },
+      {
+        "executionId": "1e6d625c-860e-454b-8137-d9da2a86f77a",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791136266156
+      }
+    ],
+    "9.2 Offline pass: verify view/edit of saved data offline and that lookup/suggestions/directions show correct offline states without data loss.": [
+      {
+        "executionId": "9577090d-d10d-452a-8a1c-bad4b9234f5b",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791063127222
+      },
+      {
+        "executionId": "f4de4f99-1eef-4ac8-ac1e-7d28535470c7",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791072238113
+      },
+      {
+        "executionId": "9a5b9aa5-0868-4595-a21a-da3b62d7b3aa",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791072745886
+      },
+      {
+        "executionId": "08ab81bc-6db1-40d3-8560-929cb0fede2d",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791073919830
+      },
+      {
+        "executionId": "1e6d625c-860e-454b-8137-d9da2a86f77a",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791136269660
+      },
+      {
+        "executionId": "1e6d625c-860e-454b-8137-d9da2a86f77a",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791136566428
+      }
+    ],
+    "9.3 Full build for iOS and macOS with zero warnings; run the whole Swift Testing suite green.": [
+      {
+        "executionId": "9577090d-d10d-452a-8a1c-bad4b9234f5b",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791063127259
+      },
+      {
+        "executionId": "f4de4f99-1eef-4ac8-ac1e-7d28535470c7",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791072238135
+      },
+      {
+        "executionId": "9a5b9aa5-0868-4595-a21a-da3b62d7b3aa",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791072745911
+      },
+      {
+        "executionId": "08ab81bc-6db1-40d3-8560-929cb0fede2d",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791073919851
+      },
+      {
+        "executionId": "1e6d625c-860e-454b-8137-d9da2a86f77a",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791136572828
+      },
+      {
+        "executionId": "1e6d625c-860e-454b-8137-d9da2a86f77a",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791136722356
+      }
+    ],
+    "3. Navigation shell & trips": [
+      {
+        "executionId": "9577090d-d10d-452a-8a1c-bad4b9234f5b",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791063299032
+      }
+    ],
+    "4. Flights": [
+      {
+        "executionId": "9577090d-d10d-452a-8a1c-bad4b9234f5b",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791069655098
+      }
+    ],
+    "5. Stays & other bookings": [
+      {
+        "executionId": "08ab81bc-6db1-40d3-8560-929cb0fede2d",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791075160957
+      }
+    ],
+    "6. Daily itinerary": [
+      {
+        "executionId": "1e6d625c-860e-454b-8137-d9da2a86f77a",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791116846611
+      }
+    ],
+    "7. Smart suggestions": [
+      {
+        "executionId": "1e6d625c-860e-454b-8137-d9da2a86f77a",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791134817963
+      }
+    ],
+    "8. Extras": [
+      {
+        "executionId": "1e6d625c-860e-454b-8137-d9da2a86f77a",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791135779140
+      }
+    ],
+    "9. Final polish & verification": [
+      {
+        "executionId": "1e6d625c-860e-454b-8137-d9da2a86f77a",
+        "chatSessionId": "sess_b7808acf-2e3d-4503-bd5d-8e3eaf356d9b",
+        "timestamp": 1791136722406
+      }
+    ]
+  }
+}

@@ -4,15 +4,21 @@
 //
 //  Created by John McCullough on 03/10/2026.
 //
+//  Test suites are organised by subject in separate files:
+//  - DateTimeZoneTests: UTC storage / local-zone display logic.
+//  Further suites (ScheduleEvaluator, SuggestionPlanner) are added with their
+//  features.
+//
 
 import Testing
+@testable import triprr
 
-struct triprrTests {
-
-    @Test func example() async throws {
-        // Write your test here and use APIs like `#expect(...)` to check expected conditions.
-        // Swift Testing Documentation
-        // https://developer.apple.com/documentation/testing
+/// Smoke test confirming the test target links against the app module.
+struct TriprrSmokeTests {
+    @Test func sampleTripsBuild() async throws {
+        await MainActor.run {
+            let trips = SampleData.makeSampleTrips()
+            #expect(trips.count == 3)
+        }
     }
-
 }
